@@ -1,0 +1,243 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+  /******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+*{
+    font-family: 'Lora', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+#ayeshaHair{
+    font-family: 'Lobster Two', sans-serif;
+    margin-left: auto;
+    font-size: 25px;
+}
+.shopCart, .searchTool{
+    width: 20px;
+    height: 20px;
+}
+nav{
+    background: rgba(255,255,240);
+    padding: 15px;
+    height: 85px;
+}
+/*Make parent element a flex*/
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+li a{
+    flex-direction: row;
+    color: black;
+}
+/*Parent element*/
+main{
+    display: flex;
+    background: rgba(203,163,178);
+}
+.container{
+    justify-content: space-evenly;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+.hairBlond{
+    font-size: 65px;
+    color: white;
+}
+.divideUR, .hairService, .openingTime{
+    color: white;
+}
+.divideUR{
+    margin-bottom: 100px;
+}
+.hairService{
+    border: 2px solid black;
+    background: black;
+    padding: 10px;
+}
+.blueColor{
+    width: 95%;
+    padding: 10px;
+}
+.containerHair{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.openingTime{
+    writing-mode: vertical-lr;
+    align-self: flex-end;
+    font-size: 20px;
+}
+.dialogCon{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    color: white;
+    background: black;
+    padding: 15px;
+    width: 16%;
+    height: 50%;
+    margin: 0;
+    padding: 10px;
+}
+#smallBig{
+    font-size: 40px;
+    color: white;
+}
+.bookOn{
+    color: black;
+    border: 2px solid white;
+    background: white;
+    padding: 8px;
+}
+.containerThree{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-content: center;
+    padding: 5px;
+    background: rgba(255,255,240);
+}
+.iconHair{
+    height: 40px;
+}
+.containerHair{
+    background: rgba(203,163,178);
+    margin: 0;
+    padding: 5px;
+}
+.makeMomentum{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 0 5px;
+}
+.makeMomentum h2{
+    font-size: 35px;
+}
+.makeMomentum h2, p, a{
+    color: white;
+}
+.readMoar{
+    border: 2px solid black;
+    background: black;
+    padding: 15px;
+    color: white;
+}
+.hairS{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hairStylist{
+    height: 250px;
+    width: 300px;
+}
+.blackStylists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 20px;
+    padding: 30px;
+}
+.blkStylist{
+    width: 350px;
+    height: 500px;
+}
+.nameStyle, .hairSALON{
+    border: 2px solid black;
+    background: black;
+    padding: 15px;
+    color: white;
+}
+.bookApp{
+    border: 2px solid white;
+    background: white;
+    padding: 8px;
+    color: black;
+    font-size: 11px;
+}
+h3, h4{
+    text-align: center;
+    padding: 10px;
+    background: rgba(203,163,178);
+    color: white;
+}
+.lookBook{
+    background:rgba(203,163,178);
+    box-sizing: border-box;
+    height: 195px;
+    overflow: hidden;
+}
+
+.galleryScroll{
+  box-sizing: border-box;
+  height: 195px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.galleryHair{
+  background-color: rgba(161,111,118);
+  display: flex;
+  box-sizing: border-box;
+  width: max-content;
+  height: 180px;
+  padding: 0px 8px;
+}
+
+.itemHair{
+  box-sizing: border-box;
+  height: 100%;
+  padding: 16px 8px;
+}
+
+.itemHair img{
+    display: block;
+    height: 100%;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

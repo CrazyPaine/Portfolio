@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+  /******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+*{
+    font-family:'Baloo 2', Times, serif;
+}
+nav{
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+ul a{
+    color: white;
+}
+
+header{
+    background-image: url(../img/PowerBowlLarge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    padding: 20px;
+    color: white;
+    height: 450px;
+}
+.shopCart, .searchTool{
+    width: 20px;
+    height: 20px;
+}
+.intrContainter{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.introOpening{
+    font-size: 65px;
+    padding-bottom: 10px;
+    
+}
+.toOur{
+    font-size: 65px;
+    font-weight: 700;
+}
+.ourResturant{
+    font-size: 65px;
+    font-weight: 700;
+    display: flex;
+}
+.searchBar{
+    display: flex;
+}
+.searchLocation{
+    justify-content: flex-start;
+}
+.classPic{
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.searchBtn{
+    width: 70px;
+    background: rgba(173,99,66);
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.searchBar{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+.aboutRest{
+    padding: 50px;
+    background-image: url(../img/stock-photo-photography-dark-breakfast-delicious-berrieswafflefoodieMedium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 550px;
+    color: white;
+}
+main .aboutStory{
+    font-size: 15px;
+    color: rgba(251,252,246);
+    font-weight: 700;
+    padding: 10px;
+}
+.discoverRest, .paraTeam, .sitAmet{
+    color: white;
+    padding: 10px;
+}
+.discoverRest{
+    font-size: 65px;
+}
+
+.discoverMen{
+    display: flex;
+    padding: 5px;
+}
+.disMenu{
+    background: rgba(173,99,66);
+    padding: 15px;
+    border-radius: 5px;
+    height: 50px;
+    width: 165px;
+}
+.equalRight{
+    background: rgba(189,130,104);
+    padding: 15px;
+    border-radius: 5px;
+    height: 50px;
+}
+.lastPart{
+    padding: 50px;
+    background-image: url(../img/80ffe671858a6140ef6d56b242580b7cpropstylingproductphotographyMedium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 550px;
+}
+
+.orderOn, .ourSpec, .cycleFood{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.orderOn{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+.ourSpec{
+    font-size: 65px;
+    padding: 20px;
+}
+.cycleFood a{
+    color: white;
+    padding: 10px;
+} 
+hr {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lookFood{
+    display: flex;
+}
+.galleryScroll{
+    box-sizing: border-box;
+    height: 195px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+.galleryFood{
+    background-color: rgba(189,130,104);
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 180px;
+    padding: 0px 8px;
+  }
+  
+.itemFoods{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+  }
+  
+.itemFoods img{
+      display: block;
+      height: 100%;
+  }
+
+    
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

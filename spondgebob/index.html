@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This app helps youtubers pick the best background color for their videos">
+    <meta name="keywords" content="youtube, background, lights">
+
+    <title>Spondgebob Mood Board</title>
+
+<!-- external CSS font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <h1>How are you feeling today?</h1>
+    
+    
+    <div class="container"></div>
+    <h2>Choose:</h2>
+    <form class="formMood">
+        
+        <input type="radio" id="happy" name="mood" checked value="happy" onClick="sorry_sir('happy')" value="happy">
+        <label for="happy">Happy</label><br>
+    
+        <input type="radio" id="sad" name="mood" checked value="sad" onClick="sorry_sir('sad')" value="sad">
+        <label for="sad">Sad</label><br>
+
+        <input type="radio" id="shocked" name="mood" checked value="shocked" onClick="sorry_sir('shocked')" value="sad">
+        <label for="shocked">Shocked</label><br>
+        
+        <input type="radio" id="angry" name="mood" checked value="angry" onClick="sorry_sir('angry')" value="angry">
+        <label for="angry">Angry</label><br>
+
+        <input type="radio" id="skeptical" name="mood" checked value="skeptical" onClick="sorry_sir('skeptical')" value="skeptical">
+        <label for="skepical">Skeptical</label><br>
+    
+        <input type="radio" id="screaming" name="mood" checked value="screaming" onClick="sorry_sir('screaming')" value="screaming">
+        <label for="screaming">Screaming</label><br>
+    
+        <input type="radio" id="ballingfist" name="mood" checked value="ballingfist" onClick="sorry_sir('ballingfist')" value="ballingfist">
+        <label for="ballingfist">Holding back the urge to fight</label><br>
+    
+        <input type="radio" id="hot" name="mood" checked value="hot" onClick="sorry_sir('hot')" value="hot">
+        <label for="hot">Hot As Hell!</label><br>
+    
+        <input type="radio" id="cold" name="mood" checked value="cold" onClick="sorry_sir('cold')" value="cold">
+        <label for="cold">Cold as Hell!</label><br>
+    
+        <input type="radio" id="everythingIsFine" name="mood" checked value="everythingIsFine" onClick="sorry_sir('everythingIsFine')" value="everythingIsFine">
+        <label for="everythingIsFine">Everything is Fine.</label><br>
+    
+        <input type="radio" id="embarassed" name="mood" checked value="embarassed" onClick="sorry_sir('embarassed')" value="embarrassed">
+        <label for="embarassed">Embarrassed</label><br>
+    
+        <input type="radio" id="appalled" name="mood" checked value="appalled" onClick="sorry_sir('appalled')" value="appalled">
+        <label for="appalled">Appalled</label><br>
+    
+        <input type="radio" id="nosey" name="mood" checked value="nosey" onClick="sorry_sir('nosey')" value="nosey">
+        <label for="nosey">Nosey</label><br>
+    
+        <input type="radio" id="overIt" name="mood" checked value="overIt" onClick="sorry_sir('overIt')" value="overIt">
+        <label for="overIt">OVER IT!</label><br>
+    
+        <input type="radio" id="feelingLikeMocking" name="mood" checked value="feelingLikeMocking" onClick="sorry_sir('feelingLikeMocking')" value="feelingLikeMocking">
+        <label for="feelingLikeMocking">Mocking</label><br>
+    
+        <input type="radio" id="innocentButReallyNot" name="mood" checked value="innocentButReallyNot" onClick="sorry_sir('innocentButReallyNot')" value="innocentButReallyNot">
+        <label for="innocentButReallyNot">Innocent But Scheming</label><br>
+    
+        <input type="radio" id="suspious" name="mood" checked value="suspious" onClick="sorry_sir('suspious')" value="suspious">
+        <label for="suspious">Suspicious</label><br>
+    </form>
+    </div>
+    
+    <br>
+  
+    <div class="mainContent">
+        <div class="memeContainer">
+            <!--This is where the picture needs to go inside of the h2.-->
+            <h2 class="memeReactions"></h2>
+            <img class="reactionImage" width="300" src="" alt="">
+        </div>
+    </div>
+
+    
+</body>
+    
+</html>

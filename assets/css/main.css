@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #e24d4a !important;
+			color: #4ad8e2 !important;
 			text-decoration: none;
 		}
 
@@ -1840,9 +1840,10 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="name"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e24d4a;
+			border-color: #4ad8e2;
 		}
 
 	select {

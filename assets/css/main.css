@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4ad8e2 !important;
+			color: #16a5aa !important;
 			text-decoration: none;
 		}
 
@@ -1843,7 +1843,7 @@ input, select, textarea {
 		input[type="name"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4ad8e2;
+			border-color: #16a5aa;
 		}
 
 	select {
@@ -2146,6 +2146,11 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				width: 100%;
+			}
+
+			.moon{
+				width: 50%;
+				height: 50%;
 			}
 
 /* List */

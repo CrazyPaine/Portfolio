@@ -40,6 +40,9 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+.fa-solid fa-moon{
+	color: rgba(17, 215, 221, 0.885);
+}
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
